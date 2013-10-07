@@ -1,0 +1,82 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>nz.co.aetheric.parent</groupId>
+		<artifactId>maven-parent-global</artifactId>
+		<version>1.1.0</version>
+	</parent>
+	
+	<groupId>nz.co.aetheric.parent</groupId>
+	<artifactId>maven-parent-reactor</artifactId>
+	<version>1.1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+    <name>Maven Parent: Reactor</name>
+    <description>A parent pom for reactor builds</description>
+    <url>https://github.com/aetheric/maven-parent/tree/maven-parent-reactor</url>
+	
+	<build>
+		<plugins>
+			
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>1.2.1</version>
+				<configuration>
+					<executable>git</executable>
+				</configuration>
+				<executions>
+
+					<execution>
+						<id>retrieve submodules</id>
+						<phase>initialize</phase>
+						<goals>
+							<goal>exec</goal>
+						</goals>
+						<configuration>
+							<arguments>
+								<argument>submodule</argument>
+								<argument>update</argument>
+								<argument>--init</argument>
+							</arguments>
+						</configuration>
+					</execution>
+					
+					<execution>
+						<id>update submodules</id>
+						<phase>initialize</phase>
+						<goals>
+							<goal>exec</goal>
+						</goals>
+						<configuration>
+							<arguments>
+								<argument>submodule</argument>
+								<argument>foreach</argument>
+								<argument>git</argument>
+								<argument>submodule</argument>
+								<argument>update</argument>
+								<argument>--init</argument>
+							</arguments>
+						</configuration>
+					</execution>
+
+				</executions>
+			</plugin>
+			
+		</plugins>
+	</build>
+
+    <issueManagement>
+        <system>github</system>
+        <url>https://github.com/aetheric/maven-parent/issues</url>
+    </issueManagement>
+
+    <scm>
+        <url>scm:git:https://github.com/aetheric/maven-parent</url>
+        <connection>scm:git:git://github.com/aetheric/maven-parent.git</connection>
+        <developerConnection>scm:git:git@github.com:aetheric/maven-parent.git</developerConnection>
+		<tag>maven-parent-reactor</tag>
+    </scm>
+
+</project>
