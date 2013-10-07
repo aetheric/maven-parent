@@ -1,4 +1,4 @@
-maven-parent
-============
+# parent-global
+=============
 
-A repo for containing all non-project maven parent artefacts
+The global parent for all aetheric projects.

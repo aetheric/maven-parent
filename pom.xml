@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>nz.co.aetheric.parent</groupId>
+    <artifactId>parent-global</artifactId>
+    <version>1.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>Aetheric Global Parent</name>
+    <description>The project parent for shiva-email</description>
+    <url>https://github.com/aetheric/parent-global</url>
+
+    <licenses>
+        <license>
+            <name>MIT</name>
+            <url>http://opensource.org/licenses/mit</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+	        <id>tzrlk</id>
+            <name>Peter Cummuskey</name>
+	        <url>http://gplus.to/tzrlk</url>
+            <email>peterc@aetheric.co.nz</email>
+            <timezone>UTC+12</timezone>
+        </developer>
+    </developers>
+
+    <issueManagement>
+        <system>github</system>
+        <url>https://github.com/aetheric/parent-global/issues</url>
+    </issueManagement>
+
+    <ciManagement>
+        <system>jenkins</system>
+        <url>https://grandcentral.cloudbees.com/services/goto/jenkins</url>
+    </ciManagement>
+
+    <scm>
+        <url>https://github.com/aetheric/parent-global</url>
+        <connection>git://github.com/aetheric/parent-global.git</connection>
+        <developerConnection>git@github.com:aetheric/parent-global.git</developerConnection>
+    </scm>
+
+</project>
