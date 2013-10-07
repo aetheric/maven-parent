@@ -1,4 +1,4 @@
-maven-parent
-============
+parent-java
+===========
 
-A repo for containing all non-project maven parent artefacts
+The parent for all aetheric java projects
