@@ -1,4 +1,3 @@
-maven-parent
-============
+# Maven Parent: Reactor
 
-A repo for containing all non-project maven parent artefacts
+This maven parent is designed to be used by reactor poms to do everything necessary to build their submodules from scratch. Currently, it uses the maven-exec plugin to run the local git installation to accomplish this.
