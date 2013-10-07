@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>nz.co.aetheric.parent</groupId>
+		<artifactId>maven-parent-global</artifactId>
+		<version>1.1.0</version>
+	</parent>
+
+	<artifactId>maven-parent</artifactId>
+	<version>1.1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>Maven Parent</name>
+	<description>A repo for containing all non-project maven parent artefacts</description>
+	<url>https://github.com/aetheric/maven-parent/tree/master</url>
+
+	<modules>
+		<module>maven-parent-global</module>
+		<module>maven-parent-java</module>
+	</modules>
+
+	<scm>
+		<url>scm:git:https://github.com/aetheric/maven-parent</url>
+		<connection>scm:git:https://github.com/aetheric/maven-parent.git</connection>
+		<developerConnection>scm:git:git@github.com:aetheric/maven-parent.git</developerConnection>
+		<tag>master</tag>
+	</scm>
+
+</project>
