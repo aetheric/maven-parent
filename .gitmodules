@@ -1,0 +1,18 @@
+[submodule "maven-parent-global"]
+	path = maven-parent-global
+	url = git@github.com:aetheric/maven-parent.git
+	branch = maven-parent-global
+	update = rebase
+	ignore = dirty
+[submodule "maven-parent-java"]
+	path = maven-parent-java
+	url = git@github.com:aetheric/maven-parent.git
+	branch = maven-parent-java
+	update = rebase
+	ignore = dirty
+[submodule "maven-parent-reactor"]
+	path = maven-parent-reactor
+	url = git@github.com:aetheric/maven-parent.git
+	branch = maven-parent-reactor
+	update = rebase
+	ignore = dirty
