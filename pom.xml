@@ -9,7 +9,7 @@
 
     <groupId>nz.co.aetheric.parent</groupId>
     <artifactId>maven-parent-java</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Maven Parent: Java</name>
@@ -25,7 +25,7 @@
         <url>https://github.com/aetheric/maven-parent</url>
         <connection>scm:git:git://github.com/aetheric/maven-parent.git</connection>
         <developerConnection>scm:git:git@github.com:aetheric/maven-parent.git</developerConnection>
-	    <tag>maven-parent-java-1.1.0</tag>
+	    <tag>maven-parent-java</tag>
     </scm>
 
 </project>
