@@ -9,7 +9,7 @@
 
     <groupId>nz.co.aetheric.parent</groupId>
     <artifactId>maven-parent-lombok</artifactId>
-    <version>1.1.0-SNAPSHOT</version>
+    <version>1.1.0</version>
     <packaging>pom</packaging>
 
     <name>Maven Parent: Lombok</name>
@@ -59,7 +59,7 @@
         <url>https://github.com/aetheric/maven-parent</url>
         <connection>scm:git:git://github.com/aetheric/maven-parent.git</connection>
         <developerConnection>scm:git:git@github.com:aetheric/maven-parent.git</developerConnection>
-	    <tag>maven-parent-lombok</tag>
+	    <tag>maven-parent-lombok-1.1.0</tag>
     </scm>
 
 </project>
