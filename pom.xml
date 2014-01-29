@@ -47,7 +47,7 @@
 
 					<configuration>
 						<sassSourceDirectory>${resdir}/scss</sassSourceDirectory>
-						<destination>${fragdir}/sslib</destination>
+						<destination>${fragdir}/ssapp</destination>
 					</configuration>
 
 					<executions>
