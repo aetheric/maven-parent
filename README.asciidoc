@@ -1,0 +1,8 @@
+= Maven Parent - Fragment
+
+This parent is for any and all webfragment projects.
+
+The key purpose here is to deal with all the relevant packaging, and possibly
+allow for running/testing the fragments individually, without having to put
+together a full war project.
+
