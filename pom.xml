@@ -9,7 +9,7 @@
 
 	<groupId>nz.co.aetheric.maven</groupId>
 	<artifactId>parent-fragment</artifactId>
-	<version>1.1.0</version>
+	<version>1.2.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>Maven Parent - Fragment</name>
@@ -82,9 +82,4 @@
 		</pluginManagement>
 
 	</build>
-
-
-  <scm>
-    <tag>parent-fragment-1.1.0</tag>
-  </scm>
 </project>
